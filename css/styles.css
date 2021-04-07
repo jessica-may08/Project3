@@ -50,7 +50,7 @@ h4   {
 #pheading   {
     text-align: left;
     padding-bottom: 0px;
-    padding-left: 30px;
+    padding-left: 15px;
     margin-bottom: -20px;
 }
 
@@ -74,6 +74,7 @@ input[type=text], #state  {
 #newsletter   {
   border-top: 2px solid #383f4a;
   margin-top: 20px;
+  text-align: left;
 }
 
 /* ZIPCODE - gradient of background and border-radius-----*/
@@ -106,9 +107,13 @@ form  {
 #newsletter   {
     text-align: left;
     padding-top: 65px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
+.newsletter   {
+    text-align: left;
+    padding-left: 18px;
+}
 label {
     font-size: 18px;
     line-height: 2.5;
@@ -130,6 +135,8 @@ button[type=submit]  {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  border: none;
+  border-radius: 10px;
 }
 
 .submit   {
