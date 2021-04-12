@@ -17,9 +17,6 @@ body  {
     margin: 0 auto;
 }
 
-/*something funky happening with the Right Margin of the body*/
-
-
 h2  {
     color: #383f4a;
     text-align: center;
@@ -29,6 +26,7 @@ p {
     color: #92969c;
     text-align: center;
   }
+
 
 h3  {
     text-align: left;
@@ -43,16 +41,31 @@ h4   {
 
 }
 
-.first  {
-  border-bottom: thick double #383f4a;
+.wrapper  {
+  margin: 0 auto,
 }
+
+.first  {
+  border-bottom: thick solid #383f4a;
+  margin-bottom: 5px;
+}
+
 
 #pheading   {
     text-align: left;
     padding-bottom: 0px;
     padding-left: 15px;
+    padding-top: 30px;
     margin-bottom: -20px;
+    border-top: solid #383f4a;
+    margin-top: 5px;
 }
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
 
 input[type=text], #state  {
   display: block;
@@ -77,8 +90,6 @@ input[type=text], #state  {
   text-align: left;
 }
 
-/* ZIPCODE - gradient of background and border-radius-----*/
-
 input[type=radio] {
   display: inline-block;
 }
@@ -97,7 +108,6 @@ fieldset {
     border: none;
 }
 
-}
 form  {
     border-bottom: thick solid #383f4a;
       flex-basis: 48%;
@@ -113,7 +123,9 @@ form  {
 .newsletter   {
     text-align: left;
     padding-left: 18px;
+    padding-bottom: 2px;
 }
+
 label {
     font-size: 18px;
     line-height: 2.5;
@@ -126,7 +138,7 @@ input[type=radio] {
 
 button[type=submit]  {
   width: 90%;
-  height: 40px;
+  height: 60px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #30a19b;
@@ -143,7 +155,7 @@ button[type=submit]  {
   width: 100%
   text-align: center;
   border: none;
-  border-radius: 25%;
+  border-radius: 1em;
 }
 
 .wrapper  {
@@ -151,14 +163,44 @@ button[type=submit]  {
   text-align: center;
 }
 
+#state  {
+  height: 60px;
+  width: 100%;
+}
+
 #zipcode  {
     margin-bottom: 50px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#checkboxes, #radios {
+    text-align: center;
+    display: inline-block;
+    padding-top:0px;
+}
+
+
+.other  {
+  font-size: 18px;
+  color: #92969c;
+    text-align: left;
+  padding-left: 18px
+}
+
+#topics   {
+    height: 120px;
+    width: 88%;
+    border: none;
+    background-color: #e1e3e1;
+    border-radius: 1em;
 }
 
 footer  {
   color: #92969c;
   margin-bottom: 50%;
 }
+
 
 
 

@@ -27,9 +27,9 @@
 <form>
 <fieldset>
     <label for="name"><h3>Full Name</h3></label>
-    <input type="text" id="name" name="user-name">
+    <input type="text" id="name" name="user-name" required>
     <label for="email"><h3>Email Adress</h3></label>
-    <input type="text" id="email" name="user-email">
+    <input type="text" id="email" name="user-email" required>
     <label for "phone"><h3>Phone Number</h3></label>
     <input type="text" id="phone" name="user-phone">
     <label for="address"><h3>Street Address</h3></label>
@@ -46,22 +46,29 @@
 </form>
 
 <h2 id="newsletter">Newsletter</h2>
-<p id="nl"><h4>Select the newsletters you would like to receive</h4></p>
+<p><h4>Select the newsletters you would like to receive</h4></p>
 <form>
   <fieldset>
+    <div id="checkboxes">
     <input type="checkbox" id="html" value="interest_HTML" name="user-interest">
     <label class="light" for="html">HTML News</label><br>
+
     <input type="checkbox" id="css" value="interest_CSS" name="user-interest">
     <label class="light" for="css">CSS News</label><br>
+
     <input type="checkbox" id="java" value="interest_JAVA" name="user-interest">
     <label class="light" for="java">Javascript News</label><br>
+  </div>
   </fieldset>
+
 </form>
 <h4 class="newsletter">Newsletter Format</h4>
 <form>
+  <section id="radios">
   <fieldset>
     <input type="radio" id="HTML" value="format_choice" name="html_text"><label for="HTML" class="light">HTML</label>
     <input type="radio" id="plain" value="plain_choice" name="plain_text"><label for="plain" class="light">Plain text</label>
+  </section>
   </fieldset>
 </form>
 
