@@ -26,23 +26,28 @@
 <h2 id="pheading">Contact Information</h2>
 <form>
 <fieldset>
+
     <label for="name"><h3>Full Name</h3></label>
     <input type="text" id="name" name="user-name" placeholder="Required" required>
+
     <label for="email"><h3>Email Adress</h3></label>
-    <input type="text" id="email" name="user-email" required>
+    <input type="text" id="email" name="user-email" placeholder="Required" required>
+
     <label for "phone"><h3>Phone Number</h3></label>
     <input type="text" id="phone" name="user-phone">
+
     <label for="address"><h3>Street Address</h3></label>
     <input type="text" id="address" name="user-address">
-    <div
+
     <label for="city"><h3>City</h3></label>
     <input type="text" id="city" name="user-city">
-<div class="input">
+
     <label for="state"><h3>State</h3></label>
     <select id="state" name="user-state">
+
       <option value="Select">Select State</option>
-    </div>
     </select>
+
     <div class="input">
     <label for="zipcode"><h3>Zipcode</h3></label>
     <input type="text" id="zipcode" name="user-zipcode">
@@ -69,8 +74,8 @@
 </form>
 <h4 class="newsletter">Newsletter Format</h4>
 <form>
-  <section id="radios">
   <fieldset>
+    <section id="radios">
     <input type="radio" id="HTML" value="format_choice" name="choice"><label for="HTML" class="light">HTML</label>
     <input type="radio" id="plain" value="plain_choice" name="choice"><label for="plain" class="light">Plain text</label>
   </section>
