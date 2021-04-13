@@ -2,6 +2,7 @@
 
 .main-header  {
     max-width: 100vw;
+    padding: 5px 5px 5px 5px;
 }
 
 header  {
@@ -64,6 +65,7 @@ h4   {
 input:required {
   border-color: #800000;
   border-width: 3px;
+  float: right;
 }
 
 
@@ -111,7 +113,7 @@ fieldset {
 form  {
     border-bottom: thick solid #383f4a;
       flex-basis: 48%;
-      padding-left: 20px;
+
 }
 
 #newsletter   {
