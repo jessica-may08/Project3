@@ -42,7 +42,7 @@ h4   {
 }
 
 .wrapper  {
-  margin: 0 auto,
+  margin: 0 auto;
 }
 
 .first  {
@@ -152,8 +152,7 @@ button[type=submit]  {
 }
 
 .submit   {
-  width: 100%
-  text-align: center;
+  width: 100%;
   border: none;
   border-radius: 1em;
 }
@@ -186,6 +185,10 @@ div .input  {
     padding-bottom: 10px;
 }
 
+input[type="radio"]{
+float:left;
+padding-left: 10px;
+}
 
 .other  {
   font-size: 18px;
@@ -208,36 +211,11 @@ footer  {
 }
 
 
-
-
-
-/*Text-align: left; nl
-
-HTML zipcode setup
-<form>
-  <fieldset>
-    <label for="newsletters">Select the newsletters you would like to receive</label>
-    <select id="newsletters" name="newsletters" name="user-newsletters"
-      <option value="HTML_news">HTML News</option>
-      <option value="CSS_news">CSS News</option>
-      <option value="Javascript_news">Javascript News</option>
-    </select>
-  </fieldset>
-</form>----/*
-
-
-
-
-
-
-/*border-bottom: double 2px #383f4a;---*/
-
 @media(min-width:760px) {
 
   .wrapper  {
     width: 50%;
     margin: 0 auto;
   }
-
 
 }
