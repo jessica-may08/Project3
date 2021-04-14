@@ -29,10 +29,6 @@ p {
   }
 
 
-h3  {
-    text-align: left;
-}
-
 h4   {
     color: #92969c;
     text-align: center;
@@ -71,7 +67,7 @@ input:required {
 
 input[type=text], #state  {
   display: block;
-  text-align: center;
+  text-align: left;
   background-color: #e1e3e1;
   padding: 2em;
   margin: 0 auto;
@@ -100,8 +96,14 @@ input[type=checkbox]  {
   display: inline-block;
 }
 
-label {
-    text-align: left;
+label  {
+  display: inline-block;
+font-size: 1.17em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 2em;
+margin-right: 0;
+font-weight: bold;
 }
 
 fieldset {
@@ -130,13 +132,10 @@ form  {
 
 label {
     font-size: 18px;
-    line-height: 2.5;
     color: #92969c;
 }
 
-input[type=radio] {
-  display: block;
-}
+
 
 button[type=submit]  {
   width: 90%;
@@ -188,7 +187,7 @@ div .input  {
 }
 
 input[type="radio"]{
-float:left;
+
 padding-left: 10px;
 }
 
