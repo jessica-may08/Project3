@@ -101,7 +101,6 @@ label  {
 font-size: 1.17em;
 margin-top: 1em;
 margin-bottom: 1em;
-margin-left: 2em;
 margin-right: 0;
 font-weight: bold;
 }
@@ -168,14 +167,13 @@ button[type=submit]  {
   width: 100%;
 }
 
-div .input  {
+.input  {
     width: 40%;
 }
 
+
 #zipcode  {
     margin-bottom: 50px;
-
-
 }
 
 #checkboxes, #radios {
@@ -218,5 +216,13 @@ footer  {
     width: 50%;
     margin: 0 auto;
   }
+
+  #pheading  {
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+
+
 
 }
