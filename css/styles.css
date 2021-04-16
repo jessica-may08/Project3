@@ -68,7 +68,6 @@ h4   {
 input:required {
   border-color: #800000;
   border-width: 3px;
-  float: right;
 }
 
 
@@ -78,9 +77,10 @@ input[type=text], #state  {
   background-color: #e1e3e1;
   padding: 2em;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   border-style: none;
 }
+
 
 #state    {
   border-style: none;
@@ -104,7 +104,8 @@ input[type=checkbox]  {
 }
 
 label  {
-  display: inline-block;
+  display: block;
+  text-align: left;
 font-size: 1.17em;
 margin-top: 1em;
 margin-bottom: 1em;
