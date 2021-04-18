@@ -249,13 +249,8 @@ input:focus {
       flex-wrap: wrap;
   }
 
-  #label {
-    flex: 0 1 45%
-  }
-
   #zipcode  {
-    height: 45px;
-    width: 95%;
+    width: 50%;
   }
 
 
