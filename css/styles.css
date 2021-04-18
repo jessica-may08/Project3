@@ -38,10 +38,11 @@ p {
 
 h4   {
     color: #92969c;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    margin-left: 10px;
 
 }
 
@@ -58,9 +59,7 @@ h4   {
 #pheading   {
     text-align: left;
     padding-bottom: 0px;
-    padding-left: 15px;
     padding-top: 30px;
-    margin-bottom: -20px;
     border-top: solid #383f4a;
     margin-top: 5px;
 }
@@ -71,7 +70,7 @@ input:required {
 }
 
 
-input[type=text], #state  {
+input[type=text]  {
   display: block;
   text-align: left;
   background-color: #e1e3e1;
@@ -86,6 +85,10 @@ input[type=text], #state  {
 #state    {
   border-style: none;
   font-size: 18px;
+  padding: 1em;
+  height: 3em;
+  width: 98%;
+  margin: 0 auto;
   background-color: #e1e3e1;
   color: #92969c;
 }
@@ -107,11 +110,11 @@ input[type=checkbox]  {
 label  {
   display: block;
   text-align: left;
-font-size: 1.17em;
-margin-top: 1em;
-margin-bottom: 1em;
-margin-right: 0;
-font-weight: bold;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 0;
+  font-weight: bold;
 }
 
 fieldset {
@@ -133,7 +136,7 @@ form  {
 
 .newsletter   {
     text-align: left;
-    padding-left: 18px;
+    padding-left: 10px;
     padding-bottom: 2px;
 }
 
@@ -171,28 +174,35 @@ button[type=submit]  {
 }
 
 #state  {
-  height: 60px;
-  width: 88%;
+  height: 80px;
+  width: 99%;
 }
 
 .input  {
     width: 40%;
 }
 
+.inputs {
+
+}
 
 #zipcode  {
     margin-bottom: 50px;
     width: 40vw;
+    height: 45px;
     text-align: left;
 
 }
 
 #checkboxes, #radios {
     text-align: left;
-    display: inline-block;
     padding-top:0px;
     margin-left: 10px;
     padding-bottom: 10px;
+}
+
+#checkboxes label, #radios label {
+  display: inline-block;
 }
 
 input[type="radio"]{
@@ -237,13 +247,17 @@ input:focus {
   #pheading  {
       display: flex;
       flex-wrap: wrap;
-
   }
 
-  fieldset {
-    display: flex;
-      border: none;
+  #label {
+    flex: 0 1 45%
   }
+
+  #zipcode  {
+    height: 45px;
+    width: 95%;
+  }
+
 
 
 }
