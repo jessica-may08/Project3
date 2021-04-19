@@ -84,13 +84,14 @@ input[type=text]  {
 
 #state    {
   border-style: none;
-  font-size: 18px;
+  font-size: 16px;
   padding: 1em;
   height: 3em;
   width: 98%;
   margin: 0 auto;
   background-color: #e1e3e1;
   color: #92969c;
+  display: flex;
 }
 
 #newsletter   {
@@ -174,7 +175,7 @@ button[type=submit]  {
 }
 
 #state  {
-  height: 80px;
+  height: 5em;
   width: 99%;
 }
 
@@ -237,10 +238,12 @@ input:focus {
 }
 
 
+
+
 @media(min-width:768px) {
 
   .wrapper  {
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
   }
 
@@ -251,6 +254,49 @@ input:focus {
 
   #zipcode  {
     width: 90%;
+  }
+
+  .form-fields div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-fields input[type=text] {
+    flex: 1 0 45%;
+
+  }
+
+  .form-fields label  {
+    flex: 1 0 55%;
+
+  }
+
+  label[for="name"],
+  label[for="email"],
+  label[for="phone"],
+  label[for="address"],
+  label[for="city"],
+  label[for="state"],
+  label[for="zipcode"]  {
+    max-width: 30%;
+  }
+
+  .inputs   {
+    max-width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+
+  #state label {
+    max-width: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #state input  {
+    max-width: 100%;
   }
 
 }
