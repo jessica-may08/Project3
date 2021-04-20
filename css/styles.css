@@ -1,4 +1,4 @@
-/* Mobile First Design ---*/
+label/* Mobile First Design ---*/
 
 * {
   font-family: 'Zilla Slab', serif;
@@ -25,7 +25,7 @@ body  {
     margin: 0 auto;
 }
 
-h2  {
+legend  {
     color: #383f4a;
     text-align: center;
 }
@@ -106,6 +106,17 @@ input[type=radio] {
 
 input[type=checkbox]  {
   display: inline-block;
+}
+
+legend  {
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 label  {
@@ -232,7 +243,7 @@ footer  {
 }
 
 input:focus {
-  background-color: #6ccccc;
+  background-color: #30a19b;
   font-weight: bold;
   color: #424747;
 }
@@ -303,4 +314,6 @@ input:focus {
   .input {
   	width: auto;
   }
+
+
 }
