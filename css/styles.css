@@ -1,4 +1,4 @@
-label/* Mobile First Design ---*/
+/* Mobile First Design ---*/
 
 * {
   font-family: 'Zilla Slab', serif;
@@ -27,7 +27,7 @@ body  {
 
 legend  {
     color: #383f4a;
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -38,7 +38,7 @@ p {
 
 h4   {
     color: #92969c;
-    text-align: left;
+    text-align: center;
     font-size: 18px;
     padding-bottom: 5px;
     margin-bottom: 5px;
