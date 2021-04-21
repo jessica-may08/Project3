@@ -25,11 +25,6 @@ body  {
     margin: 0 auto;
 }
 
-legend  {
-    color: #383f4a;
-    text-align: left;
-}
-
 p {
     color: #92969c;
     text-align: center;
@@ -94,11 +89,7 @@ input[type=text]  {
   display: flex;
 }
 
-#newsletter   {
-  border-top: 2px solid #383f4a;
-  margin-top: 20px;
-  text-align: left;
-}
+
 
 input[type=radio] {
   display: inline-block;
@@ -113,10 +104,11 @@ legend  {
   margin-bottom: 0.83em;
   margin-left: 0;
   margin-right: 0;
-  padding-top: 16px;
+  padding-top: 10px;
   padding-bottom: 8px;
   font-size: 1.5em;
   font-weight: bold;
+  text-align: left;
 }
 
 label  {
@@ -140,17 +132,19 @@ form  {
 
 }
 
-#newsletter   {
+h2   {
     text-align: left;
     padding-top: 30px;
-    padding-left: 15px;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.newsletter   {
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 2px;
-}
 
 label {
     font-size: 18px;
@@ -198,12 +192,15 @@ button[type=submit]  {
 
 }
 
+.news   {
+    border-top: 5px solid black;
+}
+
 #zipcode  {
     margin-bottom: 50px;
     width: 40vw;
     height: 45px;
     text-align: left;
-
 }
 
 #checkboxes, #radios {
@@ -315,5 +312,16 @@ input:focus {
   	width: auto;
   }
 
+  h4  {
+    text-align: left;
+  }
+
+#topics   {
+    width: 100%;
+}
+
+button[type=submit] {
+  width: 100%;
+}
 
 }
