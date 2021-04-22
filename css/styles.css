@@ -76,6 +76,17 @@ input[type=text]  {
   border-style: none;
 }
 
+input[type=email], input[type=tel]  {
+  display: block;
+  text-align: left;
+  background-color: #e1e3e1;
+  padding: 1em;
+  height: 3em;
+  margin: 0 auto;
+  width: 88%;
+  border-style: none;
+}
+
 
 #state    {
   border-style: none;
@@ -99,7 +110,7 @@ input[type=checkbox]  {
   display: inline-block;
 }
 
-legend  {
+legend, h3  {
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
@@ -132,7 +143,7 @@ form  {
 
 }
 
-h2   {
+.other   {
     text-align: left;
     padding-top: 30px;
     margin-top: 0.83em;
@@ -186,10 +197,6 @@ button[type=submit]  {
 
 .input  {
     width: 40%;
-}
-
-.inputs {
-
 }
 
 .news   {
@@ -270,7 +277,7 @@ input:focus {
     flex-wrap: wrap;
   }
 
-  .form-fields input[type=text], #state {
+  .form-fields input[type=text], input[type=email], input[type=tel], #state {
     flex: 1 0 45%;
   }
 

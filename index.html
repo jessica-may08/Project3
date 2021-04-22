@@ -33,12 +33,12 @@
 
 <div class="inputs">
     <label for="email">Email Address</label>
-    <input type="text" id="email" name="user-email" placeholder="Required" required>
+    <input type="email" id="email" name="user-email" placeholder="Required" required>
 </div>
 
 <div class="inputs">
     <label for="phone">Phone Number</label>
-    <input type="text" id="phone" name="user-phone">
+    <input type="tel" id="phone" name="user-phone">
 </div>
 
 <div class="inputs">
@@ -129,10 +129,9 @@
     <input type="checkbox" id="java" value="interest_JAVA" name="user-interest">
     <label class="light" for="java">Javascript News</label><br>
 </div>
-</fieldset>
 
-  <fieldset>
-<legend>Newsletter Format</legend>
+
+<h3>Newsletter Format</h3>
 
     <section id="radios">
     <input type="radio" id="HTML" value="format_choice" name="choice"><label for="HTML" class="light">HTML</label>
@@ -142,7 +141,7 @@
   </fieldset>
 
 <div class="submit">
-<h2 class="other">Other topics you'd like to hear about</h2>
+<label for="topics" class="other">Other topics you'd like to hear about</label>
   <textarea id="topics" name="Other_topics"></textarea><br>
 
 <button type="submit"><strong>Sign up</strong></button>
